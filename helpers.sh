@@ -8,11 +8,11 @@ function print_title() {
 }
 
 function success_msg() {
-    echo -e "${GREEN}✅ $1${NC}"
+    echo -e "${GREEN} $1${NC}"
 }
 
 function error_msg() {
-    echo -e "${RED}❌ $1${NC}"
+    echo -e "${RED} $1${NC}"
 }
 
 function validate_number() {
